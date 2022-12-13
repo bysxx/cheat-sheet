@@ -1,3 +1,3 @@
 ```sh
-fail2ban-client status ssh
+fail2ban-client status sshd
 ```
