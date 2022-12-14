@@ -25,6 +25,6 @@ kubectl get svc
 kubectl get service --all-namespaces
 kubectl get svc --all-namespaces
 
-#node 조회
+# node 조회
 kubectl get node
 ```
