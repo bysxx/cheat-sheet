@@ -13,5 +13,5 @@ sudo vim /etc/nginx/site-available/default
 #	  }
 # }
   
-sudo systemctl start nginx
+sudo systemctl restart nginx
 ```
