@@ -11,6 +11,11 @@ sudo vim /etc/nginx/site-available/default
 #   location / {
 #	  	proxy_pass http://127.0.0.1:3000/;
 #	  }
+
+#     location /forum {
+#               rewrite /forum/(.*) /$1 break;  # rewrite를 사용하여 base path를 설정할 수 있다
+#               proxy_pass http://127.0.0.1:60001/;
+#          }
 # }
   
 sudo systemctl restart nginx
